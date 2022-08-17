@@ -1,0 +1,9 @@
+﻿  Game.cpp
+C:\Users\tomfe\source\repos\HangMan\HangMan\Game.h(24): warning C4091: 'static ': ignored on left of 'const Game::gameStateType' when no variable is declared
+  Main.cpp
+C:\Users\tomfe\source\repos\HangMan\HangMan\Game.h(24): warning C4091: 'static ': ignored on left of 'const Game::gameStateType' when no variable is declared
+  Generating Code...
+Game.obj : error LNK2001: unresolved external symbol "private: static enum Game::gameStateType Game::gameState" (?gameState@Game@@0W4gameStateType@1@A)
+Game.obj : error LNK2001: unresolved external symbol "private: static int Game::maxIncorrectGuesses" (?maxIncorrectGuesses@Game@@0HA)
+Game.obj : error LNK2001: unresolved external symbol "private: static int Game::difficultySetting" (?difficultySetting@Game@@0HA)
+C:\Users\tomfe\source\repos\HangMan\Debug\HangMan.exe : fatal error LNK1120: 3 unresolved externals
